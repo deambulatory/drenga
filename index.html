@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta name="theme-color" content="#D6E9FE" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Drenga - Casual Edition</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="counter"></h1>
+    <h1 class="text" id="title">Casual Drenga!</h1>
+    <div id="descriptionContainer">
+        
+		<h1 class="text" id="description"></h1>
+		
+		<div id="instructions">
+			<div id="instructions-content">
+				<h1 id="instruText">Rules</h1>
+				<ul id="list">
+				  <li>Nominate a drink after you place a brick</li>
+				  <li>Finish your drink if you knock the tower down</li>
+				</ul>
+				  
+				<div id="instruFooter">
+                   <button id="ack">Acknowledge</button>
+                </div>
+			</div>
+		</div>
+        
+		<div class="modal">
+            <div class="modal-content">
+                <h1 id="shuffle">Shuffle rules?</h1>
+                <div id="modalFooter">
+                    <button id="yes" class="options">Yes</button>
+                    <button id="no" class="options">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="text" class="desktop" id=d_numinput maxlength="2" value="Start typing...">
+    <h1 id="bricks" class="desktop">Bricks Moved: 0</h1>
+    <div id="refresh"> <img src="refresh.png" alt="Reset" class="desktop"></div>
+    <div id=footer class="mobile">
+        <button type="button" class="button" class="mobile" id="newRule">Bricks Moved: 0</button>
+        <button type="button" class="button" class="mobile" id="random">Random</button>
+        <button type="button" class="button" class="mobile" id="reset">Reset</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
