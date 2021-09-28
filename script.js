@@ -81,7 +81,7 @@ let rules = [
 "Multiplier / The next drink nomination you receive is doubled",
 "1984 / You can pick a word that is banned for the next round. If anyone says this word they must drink two",
 "You! / Everyone look at the floor. On the count of three look up at another player's eyes. Any players making eye contact with each other must drink two",
-"Welcome! / Anyone that is playing Casual Drenga for the first time must drink two. If you've all played before then everyone drinks",
+"Welcome! / Anyone that is playing Drenga for the first time must drink two. If you've all played before then everyone drinks",
 "Lydia / Anyone that has spilled a drink this game must drink two. The next person to spill a drink must drink four",
 "Bootcamp / Do twenty reverse lunges or drink three",
 "Bros / High five another player. Everyone else in the game other than you two must drink three",
@@ -405,7 +405,7 @@ function yesClick(){
 	   gameset = rules.slice(0);
 	   shuffle(categories);
 	   catset = categories.slice(0);
-	   title.innerText = "Casual Drenga!";
+	   title.innerText = "Drenga!";
 	   description.innerText = "";
 	   bricksMoved = 0;
 	   bricks.innerText = "Bricks Moved: " + bricksMoved;
@@ -418,7 +418,7 @@ function yesClick(){
 function noClick(){
 	
 	   $('.button').prop('disabled', false);
-	   title.innerText = "Casual Drenga!";
+	   title.innerText = "Drenga!";
 	   description.innerText = "";
 	   bricksMoved = 0;
 	   bricks.innerText = "Bricks Moved: " + bricksMoved;
