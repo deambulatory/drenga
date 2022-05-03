@@ -88,7 +88,8 @@ let rules = [
 "Story Time / Make a story one word at a time. Each player must recite the story from the beginning before adding their word at the end. Drink three if you repeat a word or mess up",
 "Shot Roulette / Fill four shot glasses with water, two with vodka, then mix them up. Going clockwise, each person picks one shot. If you have no shot glasses pick a random rule",
 "Dealer / Deal cards to the rest of the players. Players that receive a red suit must drink two. Players that receive a black suit must nominate two drinks (dealer is immune).",
-"Rapunzel / The player with the longest hair drinks two"
+"Rapunzel / The player with the longest hair drinks two",
+"T-Rex / Whenever you go to drink, you have to lock your elbows in at your sides so that you have T-Rex arms. Lasts for the next three turns"
 
 ];
 
